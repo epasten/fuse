@@ -41,8 +41,8 @@ ifeq "$(FC)" "ifort"
 endif
 
 ifeq "$(FC)" "gfortran"
-	NCDF_LIB_PATH = /usr/lib/x86_64-linux-gnu#${NCDF_PATH}
-	HDF_LIB_PATH = /usr/lib/x86_64-linux-gnu/hdf5/serial#${HDF_PATH}
+	NCDF_LIB_PATH = /erpaza/anaconda3/lib/x86_64-linux-gnu#${NCDF_PATH}
+	HDF_LIB_PATH = /erpaza/anaconda3/lib/x86_64-linux-gnu/hdf5/serial#${HDF_PATH}
 	INCLUDE_PATH = /usr#${IN_PATH}
 endif
 
